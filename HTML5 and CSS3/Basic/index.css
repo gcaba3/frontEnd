@@ -1,0 +1,80 @@
+/* Start of Body Stylings */
+body{
+    margin: 0px;
+    padding:0px;
+    border:0xp;
+}
+/* End of Body Stylings */
+
+/* Start of Container divs */
+div.container {
+    width:100%;
+    background-color: lightblue;  
+    border: 1px solid gray;
+    margin:0px;
+    padding:0px;
+    border:0px;
+}
+/* End of container divs */
+
+/*Start of Header stylings*/
+header {
+    background-color: #333; 
+    border:0px solid;
+    overflow: hidden;
+}
+
+header > nav {
+    float: right;
+}
+
+header > div {
+    float: left;
+}
+/*End of Header stylings*/
+
+
+/* Start of Navbar stylings */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+nav li a:hover {
+    background-color: #111;
+}
+/*End of Navbar stylings */
+
+/* Start of Section stylings */
+section { 
+    border:0px solid red; 
+    padding:0px; 
+    overflow:hidden;
+    text-align: center; 
+}
+
+/* End of Section stylings */
+
+/* Start of Footer stylings */
+footer{
+    text-align: center;
+    background-color: darkviolet; 
+    border:1px solid;
+}
+/* End of Footer stylings */
